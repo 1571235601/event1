@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/login_bg.jpg) no-repeat;
+  background-size: cover;
+}
+.login,
+.register {
+  width: 400px;
+  height: 300px;
+  margin: 200px auto;
+  padding: 0 50px;
+  background-color: #fff;
+}
+.title {
+  text-align: center;
+  padding: 10px 0;
+}
+.layui-form-item {
+  height: 35px;
+}
+.layui-form-item .layui-input {
+  padding-left: 35px;
+}
+.layui-form-item .layui-icon-username {
+  position: relative;
+  left: 13px;
+  top: 28px;
+}
+.layui-form button {
+  width: 100%;
+   margin-top: 30px;
+}
+.layui-form a {
+  float: right;
+  margin-top: 10px;
+}
+.register button {
+  width: 100%;
+  margin-top: 20px;
+}
